@@ -8,6 +8,7 @@ const userSchema = new Schema(
     name: { type: String, required: true },
     email: { type: String, requried: true },
     password: { type: String, requried: true },
+    photopath: { type: String },
   },
   {
     timestamps: true,
